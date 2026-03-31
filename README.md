@@ -1,42 +1,48 @@
 # 🚀 Obstacle Detection and Tracking System
 
 ## 📌 Overview
-This project is an Arduino Uno-based obstacle detection and tracking system using an ultrasonic sensor and a servo motor. It detects objects, tracks them, and provides alerts using LEDs and a buzzer.
+This project is an Arduino-based system that detects obstacles using an ultrasonic sensor and tracks them using a servo motor. It provides visual and sound alerts using LEDs and a buzzer.
 
 ---
 
 ## 🛠️ Components Used
-- Arduino Uno  
-- Ultrasonic Sensor (HC-SR04)  
-- Servo Motor (SG90)  
-- Buzzer  
-- LEDs (Red & Green)  
-- Resistors  
-- Breadboard & Jumper Wires  
+- Arduino Uno
+- HC-SR04 Ultrasonic Sensor
+- Servo Motor (SG90)
+- Buzzer
+- LEDs
+- Breadboard & Jumper Wires
 
 ---
 
 ## ⚙️ Working
-- The ultrasonic sensor measures the distance of nearby objects.  
-- If an obstacle is detected within a certain range, the servo motor rotates to track it.  
-- Red LED and buzzer indicate obstacle detection.  
-- Green LED indicates no obstacle.  
+- Ultrasonic sensor measures distance
+- Servo rotates to scan surroundings
+- If obstacle detected:
+  - Red LED ON
+  - Buzzer ON
+- Otherwise:
+  - Green LED ON
 
 ---
 
-## ✨ Features
-- Real-time obstacle detection  
-- Servo-based scanning (radar-like system)  
-- LED and buzzer alert system  
-- Simple and low-cost design  
+## 🔌 Connections
+- TRIG → Pin 9  
+- ECHO → Pin 10  
+- Servo → Pin 6  
+- Green LED → Pin 2  
+- Red LED → Pin 3  
+- Buzzer → Pin 4  
 
 ---
 
-## 🔌 Circuit Diagram
-![Circuit](images/circuit-diagram.png)
+## 🖼️ Circuit Diagram
+![Circuit](images/circuit.png)
 
-## 📸 Output
-![Output](images/connections.png)
+---
+
+## 📷 Project Setup
+![Setup](images/setup.jpg)
 
 ---
 
@@ -46,17 +52,12 @@ This project is an Arduino Uno-based obstacle detection and tracking system usin
 ---
 
 ## 💻 Code
-Available in this repository:  
-`Obstacle_Tracking_System.ino`
+Available in:
+`code/Obstacle_Tracking_System.ino`
 
 ---
 
 ## 🚀 Future Improvements
-- Add LCD display for distance measurement  
-- Integrate IoT for remote monitoring  
-- Improve accuracy using advanced sensors  
-
----
-
-## 👩‍💻 Author
-Sakshi Patil
+- Add IoT (send alert to mobile)
+- Add camera for AI detection
+- Improve accuracy using filters
