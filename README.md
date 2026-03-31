@@ -33,12 +33,10 @@ This project is an Arduino Uno-based obstacle detection and tracking system usin
 ---
 
 ## 🔌 Circuit Diagram
-![Circuit Diagram](circuit_diagram.png)
+![Circuit](images/circuit-diagram.png)
 
----
-
-## 📸 Project Setup
-![Project Image](project_image.jpeg)
+## 📸 Output
+![Output](images/connections.png)
 
 ---
 
