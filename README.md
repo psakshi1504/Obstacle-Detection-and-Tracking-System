@@ -36,13 +36,11 @@ This project is an Arduino-based system that detects obstacles using an ultrason
 
 ---
 
-## 🖼️ Circuit Diagram
-![Circuit](images/circuit.png)
+## 🔌 Circuit Diagram
+![Circuit](images/circuit-diagram.png)
 
----
-
-## 📷 Project Setup
-![Setup](images/setup.jpg)
+## 🔗 Connections
+![Connections](images/connections.png)
 
 ---
 
